@@ -50,6 +50,11 @@ O projeto está disponível e pode ser acessado [aqui](https://lsmachado4.github
 
     4.  Imagens
 
+> Referências: 
+
+    https://www.w3schools.com/ 
+
+    Curso Descomplica & Instituto Nu 
 
 ---
 
