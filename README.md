@@ -1,12 +1,8 @@
 >Status: versão 1.0 
-# Loja Virtual (Vitrine Landing Page com Bootstrap)
 
-
-
+<h1 align='center'> Loja Virtual (Landing Page) </h1>
 
 https://github.com/lsmachado4/ShowMusic/assets/91704215/98377c38-69b4-4f94-a51b-81d6f0f50263
-
-
 
 
 
