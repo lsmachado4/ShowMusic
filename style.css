@@ -1,0 +1,294 @@
+.nav-item {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding: 0 60px;
+    position: relative;
+    color: #65daf9;
+
+
+
+}
+
+
+#Logo {
+    color: #65DAF9;
+
+}
+
+.dropdown-menu .text-light {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding: 0 60px;
+    position: relative;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 60px;
+    position: relative;
+}
+
+.bi.bi-cart3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 150px;
+    padding: 0;
+}
+
+.bi.bi-sliders2-vertical {
+
+    color: #65DAF9;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.carousel-indicators .active {
+    background-color: #65DAF9;
+
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.main-btn {
+    background-color: transparent;
+    color: #65DAF9;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid;
+    transition: .5s;
+}
+
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(52, 72, 60);
+    border-color: #65DAF9;
+}
+
+/* Produtos */
+#instrumentosTitulo {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding: 0 60px;
+    position: relative;
+    font-size: 60px;
+}
+
+#QuemSomos,
+#NossoTime,
+#footerTitle {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding: 0 60px;
+    position: relative;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#instrumentos {
+    text-align: center;
+    color: #a2d1df;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding: 0 60px;
+    position: relative;
+    margin: 50px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#linha {
+    border: 10px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.btn {
+    background-color: #2d5763;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 30px;
+    border: 4px solid;
+
+}
+
+.btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #35565f;
+    border-color: black
+}
+
+/* Quem somos */
+
+.about-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a2d1df;
+    margin: 40px;
+    padding-top: 100px;
+
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+#about-list li {
+    line-height: 50px;
+    margin-right: 55px;
+
+}
+
+#about-list i {
+    color: #65DAF9;
+    margin-right: 55px;
+    font-size: 25px;
+}
+
+#imageQuemSomos {
+    border-radius: 90%;
+}
+
+.img-fluid {
+    margin: 80px;
+
+}
+
+/* Nosso Time */
+
+
+
+#imagesCard {
+    width: 60%;
+    border-radius: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+
+}
+
+.card {
+    padding: 1.5em .5em .5em;
+    text-align: center;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+}
+
+.card i {
+    padding: 1.5em .5em .5em;
+    text-align: center;
+
+    background-color: transparent;
+    color: white;
+    font-size: 35px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Footer */
+
+#contact-area {
+    text-align: center;
+    color: #fff;
+}
+
+.contact-box {
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+
+.contact-box i {
+    border-radius: 90%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 54px;
+}
+
+#redesSociais {
+    font-size: 50px;
+    background-color: transparent;
+}
+
+.contact-box p {
+    font-size: 30px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #fff;
+}
+
+#msg-box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#contact-form input[type='text'],
+#contact-form input[type='email'],
+#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+/* Copy-area */
+
+#copy-area {
+    color: #fff;
+}
+
+#copy-area #container {
+    padding: 10px 0;
+    text-align: center;
+
+}

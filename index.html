@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+<link rel="shortcut icon" href="Guillendesign-Variations-2-Guitar.ico" type="image/x-icon">
+<link rel="icon" href="Guillendesign-Variations-2-Guitar.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="style.css">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Show Music </title>
+</head>
+
+<body>
+    <!-- Menu de Navegação Superior  -->
+
+
+    <!-- Menu de Navegação Inferior  -->
+    <header class="container-fluid p-2 bg-dark text-center ">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+            <div class="container-fluid ">
+                <h1>
+
+                    <a class="navbar-brand" id="Logo" href="#"><i class="bi bi-sliders2-vertical"></i> Show Music</a>
+                </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end bg-dark" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Instrumentos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark bg-dark ">
+
+                                <li><a class="dropdown-item text-light" href="#">Guitarras</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Contrabaixos</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Violões</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Percussivos</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Quem somos</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light" aria-current="page" href="#">Nosso Time</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light" aria-current="page" href="#">Contatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#"><i class="bi bi-cart3"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Carrousel -->
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"
+            data-bs-interval="2300">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel/slide1.jpg" class="d-block w-100" alt="GuitarraAzul">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>It is a long established fact</h5><br>
+                        <a href="#" class="main-btn">Garanta já o seu!
+                        </a><br><br>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/slide2.jpg" class="d-block w-100" alt="Pandeiro e Conga">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>It is a long established fact </h5><br>
+                        <a href="#" class="main-btn">Garanta já o seu!
+                        </a><br><br>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/slide3.jpg" class="d-block w-100" alt="Pessoa tocando violão">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>It is a long established fact </h5><br>
+                        <a href="#" class="main-btn">Garanta já o seu!
+                        </a><br><br>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/slide4.jpg" class="d-block w-100" alt="Caixa de bateria e baquetas">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>It is a long established fact </h5><br>
+                        <a href="#" class="main-btn">Garanta já o seu!
+                        </a><br><br>
+
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <!-- Produtos -->
+
+    <section class="container-fluid bg-dark text-center p-5">
+
+        <hr class="text-light">
+        <h2 id="instrumentosTitulo">Instrumentos</h2> <br>
+        <hr class="text-light">
+
+        <h2 id="instrumentos">Guitarras</h2>
+        <nav>
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/instrumentos/guitarras/GUITARRA IBANEZ GSA60 QA TRB TRANSPARENT RED BURST.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GUITARRA IBANEZ GSA60 QA TRB TRANSPARENT RED BURST</h5>
+                    </div>
+                    <div>
+                        <h1 class="card-subtitle ">R$2.749,00</h1>
+                    </div>
+                    <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small>Em até 12x</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/instrumentos/guitarras/GUITARRA LES PAUL MICHAEL SUNBURST VINTAGE GM730N VS.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GUITARRA LES PAUL MICHAEL SUNBURST VINTAGE GM730N VS</h5>
+
+                    </div>
+                    <div>
+                        <h1 class="card-subtitle ">R$1.439,00</h1>
+                    </div>
+                    <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+
+                    <div class="card-footer">
+
+                        <small>Em até 12x</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/instrumentos/guitarras/GUITARRA SG MICHAEL HAMMER GM850N BK PRETA.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GUITARRA SG MICHAEL HAMMER GM850N BK PRETA</h5>
+                    </div>
+                    <div>
+                        <h1 class="card-subtitle">R$1.979,00</h1>
+                    </div>
+                    <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small>Em até 12x</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/instrumentos/guitarras/GUITARRA TAGIMA STRATOCASTER TG540 TG-540 SB LF-TT.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GUITARRA TAGIMA STRATOCASTER <br> TG540 TG-540 SB LF/TT</h5>
+                    </div>
+                    <div>
+                        <h1 class="card-subtitle ">R$1.169,00</h1>
+                    </div>
+                    <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small>Em até 12x</small>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h2 id="instrumentos">Contrabaixos</h2>
+        <nav>
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/instrumentos/contrabaixos/CONTRA BAIXO EPIPHONE VIOLA BASS.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CONTRA BAIXO EPIPHONE VIOLA BASS</h5>
+                    </div>
+                    <div>
+                        <h1 class="card-subtitle ">R$5.174,00</h1>
+                    </div>
+                    <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small>Em até 12x</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/instrumentos/contrabaixos/CONTRA BAIXO PHX 5 CORDAS MSR5 BK.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CONTRA BAIXO PHX 5 CORDAS MSR 5 BK</h5>
+                    </div>
+                    <div>
+                        <h1 class="card-subtitle ">R$1.439,00</h1>
+                    </div>
+                    <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small>Em até 12x</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/instrumentos/contrabaixos/CONTRA BAIXO YAMAHA 5 CORDAS ATIVO ALNICO TRBX505 MARROM.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CONTRA BAIXO YAMAHA 5 CORDAS ATIVO ALNICO TRBX505 MARROM</h5>
+                    </div>
+                    <div>
+                        <h1 class="card-subtitle ">R$5.199,00</h1>
+                    </div>
+                    <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small>Em até 12x</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/instrumentos/contrabaixos/CONTRA BAIXO TAGIMA TJB4S PRETO SPECIAL.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CONTRA BAIXO TAGIMA TJB4S PRETO SPECIAL</h5>
+                    </div>
+                    <div>
+                        <h1 class="card-subtitle ">R$1.849,00</h1>
+                    </div>
+                    <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small>Em até 12x</small>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h2 id="instrumentos">Violões</h4>
+            <nav>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="img/instrumentos/violoes/VIOLAO ACÚSTICO 6 CORDAS MICHAEL VM09E NATURAL NYLON.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VIOLAO ACÚSTICO 6 CORDAS MICHAEL VM09E NATURAL NYLON</h5>
+                        </div>
+                        <div>
+                            <h1 class="card-subtitle ">R$431,00</h1>
+                        </div>
+                        <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        <div class="card-footer">
+                            <small>Em até 12x</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/instrumentos/violoes/VIOLAO ACÚSTICO 6 CORDAS MICHAEL VM09E PRETO NYLON.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VIOLAO ACÚSTICO 6 CORDAS MICHAEL VM09E PRETO NYLON</h5>
+                        </div>
+                        <div>
+                            <h1 class="card-subtitle ">R$431,00</h1>
+                        </div>
+                        <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        <div class="card-footer">
+                            <small>Em até 12x</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/instrumentos/violoes/VIOLAO ACÚSTICO MICHAEL VM13E PK NYLON.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VIOLAO ACÚSTICO MICHAEL VM13E PK NYLON</h5>
+                        </div>
+                        <div>
+                            <h1 class="card-subtitle ">R$449,00</h1>
+                        </div>
+                        <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        <div class="card-footer">
+                            <small>Em até 12x</small>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/instrumentos/violoes/VIOLÃO YAMAHA LS6 ARE.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VIOLÃO YAMAHA LS6 ARE</h5>
+                        </div>
+                        <div>
+                            <h1 class="card-subtitle ">R$5.399,00</h1>
+                        </div>
+                        <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        <div class="card-footer">
+                            <small>Em até 12x</small>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <br>
+            <h2 id="instrumentos">Percussivos</h2>
+            <nav>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="img/instrumentos/percussivos/BATERIA ODERY EYEDENTITY SOFT GOLD SHELL PACK EYE125 MA SG.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BATERIA ODERY EYEDENTITY SOFT GOLD SHELL PACK EYE125 MA SG</h5>
+                        </div>
+                        <div>
+                            <h1 class="card-subtitle ">R$7.919,00</h1>
+                        </div>
+                        <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        <div class="card-footer">
+                            <small>Em até 12x</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/instrumentos/percussivos/BONGO PHOENIX MADEIRA 6X8 BG01.webp" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BONGO PHOENIX MADEIRA 6X8 BG01</h5>
+                        </div>
+                        <div>
+                            <h1 class="card-subtitle ">R$562,00</h1>
+                        </div>
+                        <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        <div class="card-footer">
+                            <small>Em até 12x</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/instrumentos/percussivos/PANDEIRO TIMBRA 10 CHORO MADEIRA COURO C-CAPA 8632.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PANDEIRO TIMBRA 10 CHORO MADEIRA COURO C/CAPA 8632</h5>
+                        </div>
+                        <div>
+                            <h1 class="card-subtitle ">R$309,00</h1>
+                        </div>
+                        <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        <div class="card-footer">
+                            <small>Em até 12x</small>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/instrumentos/percussivos/Zabumba Contemporanea 220C 16 Madeira Napa.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Zabumba Contemporânea 220C 16 Madeira Napa</h5>
+                        </div>
+                        <div>
+                            <h1 class="card-subtitle">R$639,00</h1>
+                        </div>
+                        <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        <div class="card-footer">
+                            <small>Em até 12x</small>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+    </section>
+
+
+
+
+    <!-- Quem somos -->
+    <section class="container-fluid bg-dark text-center text-light p-5">
+
+        <div class="row">
+            <div class="col-12">
+                <hr class="text-light"><br>
+                <h3 id="QuemSomos">Quem Somos</h3>
+                <hr class="text-light"><br>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" id="imageQuemSomos" src="img/quem somos/imgQuemSomos.avif" alt="Show Music">
+            </div>
+            <div class="col-md-6">
+                <h3 class="about-title">Lorem ipsum dolor sit amet consectetur</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestiae optio facilis distinctio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestiae optio facilis distinctio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestiae optio facilis distinctio</p>
+
+                <ul id="about-list">
+
+                    <li><i class="bi bi-check-lg"></i>oaidhgpaepfaoiemjcpoirjcgpmir</li>
+
+                    <li><i class="bi bi-check-lg"></i>oaidhgpaepfaoiemjcpoirjcgpmir</li>
+
+                    <li><i class="bi bi-check-lg"></i>oaidhgpaepfaoiemjcpoirjcgpmir</li>
+
+                    <li><i class="bi bi-check-lg"></i>oaidhgpaepfaoiemjcpoirjcgpmir</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+    <!-- Time -->
+    <section class="container-fluid bg-dark text-center p-5">
+        <hr class="text-light"><br>
+        <h3 id="NossoTime">Nosso Time</h3>
+        <hr class="text-light"><br>
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="img/nossoTime/JC-Curleigh_Photo_900.jpg" class="card-img-top" id="imagesCard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">James “JC” Curleigh</h5>
+                        <h6 class="card-text">Diretor Executivo</h6>
+                        <br>
+                        <p class="card-text"><small class="text-muted">
+                                <a href=""> <i class="bi bi-instagram" href="###"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                            </small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/nossoTime/cesar-gueikian-2.0.jpg" class="card-img-top" id="imagesCard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cesar Gueikian</h5>
+                        <h6 class="card-text">Presidente da Marca</h6>
+                        <br>
+                        <p class="card-text"><small class="text-muted">
+                                <a href=""> <i class="bi bi-instagram" href="###"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                            </small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/nossoTime/large-Armin_Boehm.jpg" class="card-img-top" id="imagesCard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Armin Boehm</h5>
+                        <h6 class="card-text">Diretor Comercial</h6>
+                        <br>
+                        <p class="card-text"><small class="text-muted">
+                                <a href=""> <i class="bi bi-instagram" href="###"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                            </small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="container-fluid bg-dark text-center p-5">
+        <footer>
+            <div id="contact-area">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr class="text-light"><br>
+                        <h3 id="footerTitle">Entre em contato conosco</h3>
+                        <hr class="text-light"><br>
+                    </div>
+                    <div class="col-md-4 contact-box ">
+                        <i class="bi bi-telephone"></i>
+                        <p><span class="contact-title">Ligue para: </span> <br> (75)3262-4848</p>
+                    </div>
+                    <div class="col-md-4 contact-box ">
+                        <i class="bi bi-envelope-at"></i>
+                        <p><span class="contact-title"> Envie um email: </span> <br> contato@showmusic.com</p>
+                    </div>
+                    <div class="col-md-4 contact-box ">
+                        <i class="bi bi-geo-alt"></i>
+                        <p><span class="contact-title">Localização: </span> <br> Rua Lorem Ipsum - 1234</p>
+                    </div>
+
+
+
+
+
+                    <hr>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-md-6 " id="msg-box">
+                        <p>Deixe uma mensagem: </p>
+                    </div>
+
+                    <div class="col-md-6" id="contact-form">
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="E-mail" name="email">
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem..."
+                                name="message"></textarea>
+                            <input type="submit" class="main-btn" value="Enviar">
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+            <br><br><br>
+            <div id="copy-area">
+                <div class="row" id="container">
+                    <div class="col-md-12  ">
+                        <p>Desenvolvido por <a href="https://www.linkedin.com/in/lucassmachadodev/" target="_blank">
+                                Lucas Machado </a> &copy; 2022</p>
+                    </div>
+                </div>
+
+                <div id="redesSociais">
+
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""> <i class="bi bi-instagram " href="###"></i></a>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+
+                </div>
+
+            </div>
+
+
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+
+</html>
