@@ -9,7 +9,7 @@ https://github.com/lsmachado4/ShowMusic/assets/91704215/98377c38-69b4-4f94-a51b-
 
 Projeto desenvolvido durante o Curso de FrontEnd do Intituto Nu & Descomplica.
 
-Nesse projeto foi o momento de colocar a cratividade para funcionar e explorar os conceitos estudos durante o curso. 💜 
+Nesse projeto foi o momento de colocar a criatividade para funcionar e explorar os conceitos estudos durante o curso. 💜 
 
 **Obs.:** Não responsivo.
 
